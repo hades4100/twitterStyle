@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>twitter style</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="left sidebar">
+      <div class="dropdown">
+        <button class="mainbutton"><i class="fa fa-fw fa-user"></i>profile1</button>
+        <div class="dropdown-options">
+          <button id="rename" class="dropbutton" onclick="rename(0)">rename</button>
+          <button id="post" class="dropbutton" onclick="post(0)">post</button>
+          <button id="feed" class="dropbutton" onclick="feed(0)">feed</button>
+          <button id="follow" class="dropbutton" onclick="follow(0)">follow</button>
+          <button id="contacts1" class="dropbutton" onclick="printfollowers(0)">contacts</button>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="mainbutton"><i class="fa fa-fw fa-user"></i>profile2</button>
+        <div class="dropdown-options">
+          <button id="rename" class="dropbutton" onclick="rename(1)">rename</button>
+          <button id="post" class="dropbutton" onclick="post(1)">post</button>
+          <button id="feed" class="dropbutton" onclick="feed(1)">feed</button>
+          <button id="follow" class="dropbutton" onclick="follow(1)">follow</button>
+          <button id="contacts1" class="dropbutton" onclick="printfollowers(1)">contacts</button>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="mainbutton"><i class="fa fa-fw fa-user"></i>profile3</button>
+        <div class="dropdown-options">
+          <button id="rename" class="dropbutton" onclick="rename(2)">rename</button>
+          <button id="post" class="dropbutton" onclick="post(2)">post</button>
+          <button id="feed" class="dropbutton" onclick="feed(2)">feed</button>
+          <button id="follow" class="dropbutton" onclick="follow(2)">follow</button>
+          <button id="contacts1" class="dropbutton" onclick="printfollowers(2)">contacts</button>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="mainbutton"><i class="fa fa-fw fa-user"></i>profile4</button>
+        <div class="dropdown-options">
+          <button id="rename" class="dropbutton" onclick="rename(3)">rename</button>
+          <button id="post" class="dropbutton" onclick="post(3)">post</button>
+          <button id="feed" class="dropbutton" onclick="feed(3)">feed</button>
+          <button id="follow" class="dropbutton" onclick="follow(3)">follow</button>
+          <button id="contacts1" class="dropbutton" onclick="printfollowers(3)">contacts</button>
+        </div>
+      </div>
+    </div>
+    <div class="box" id="box"></div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
